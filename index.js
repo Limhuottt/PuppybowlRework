@@ -74,7 +74,6 @@ function showDetails(player) {
    *
    */
 
-  //So now we're creating the Remove button to the detial section so that when we click on the player, it shows the details and also a button to remove the player.
   const removeButton = document.createElement("button");
   removeButton.textContent = "Remove Player";
   div.append(removeButton);
