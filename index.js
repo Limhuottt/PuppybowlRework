@@ -1,6 +1,6 @@
 // === Constants ===
 const BASE = "https://fsa-puppy-bowl.herokuapp.com/api";
-const COHORT = "/2504-ftb-et-web-pt"; // Make sure to change this!
+const COHORT = "/2504-Lim"; // Make sure to change this!
 const API = BASE + COHORT;
 async function main() {
   // === Fetch Players ===
@@ -62,6 +62,7 @@ function showDetails(player) {
   const status = document.createElement("p");
   const teamName = document.createElement("p");
 
+  // we got the players information from the API / players
   div.append(img, name, id, breed, status, teamName);
   document.querySelector("#details").append(div);
   // doing document.querySelector("#details") will let the players details be shown in the <div id="details"></div> section in our HTML file.
